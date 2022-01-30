@@ -8,22 +8,23 @@ $Darkblue: hsl(218, 44%, 22%);
 
 *{
     background-color: $Lightgray;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .container{
     background-color: $White;
-    margin: auto;
-    max-width: 220px;
+    
+    max-width: 100%;
     text-align: center;
     padding: 1rem;
     border-radius: 10px;
-    transform: translateY(25%);
+    
 
-
-    // flex method
- 
-
-
+    
     img{
         width: 220px;
         border-radius: 10px;
